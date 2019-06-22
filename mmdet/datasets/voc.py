@@ -3,10 +3,7 @@ from .xml_style import XMLDataset
 
 class VOCDataset(XMLDataset):
 
-    CLASSES = ('aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus', 'car',
-               'cat', 'chair', 'cow', 'diningtable', 'dog', 'horse',
-               'motorbike', 'person', 'pottedplant', 'sheep', 'sofa', 'train',
-               'tvmonitor')
+    CLASSES = ('date', 'fig', 'hazelnut')
 
     def __init__(self, **kwargs):
         super(VOCDataset, self).__init__(**kwargs)
