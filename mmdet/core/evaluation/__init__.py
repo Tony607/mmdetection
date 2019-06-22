@@ -1,5 +1,5 @@
 from .class_names import (voc_classes, imagenet_det_classes,
-                          imagenet_vid_classes, coco_classes, my_dataset_classes, dataset_aliases,
+                          imagenet_vid_classes, coco_classes, dataset_aliases,
                           get_classes)
 from .coco_utils import coco_eval, fast_eval_recall, results2json
 from .eval_hooks import (DistEvalHook, DistEvalmAPHook, CocoDistEvalRecallHook,

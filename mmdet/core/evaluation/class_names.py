@@ -81,16 +81,12 @@ def coco_classes():
         'scissors', 'teddy_bear', 'hair_drier', 'toothbrush'
     ]
 
-def my_dataset_classes():
-    return ['date', 'fig', 'hazelnut']
-
 dataset_aliases = {
     'voc': ['voc', 'pascal_voc', 'voc07', 'voc12'],
     'imagenet_det': ['det', 'imagenet_det', 'ilsvrc_det'],
     'imagenet_vid': ['vid', 'imagenet_vid', 'ilsvrc_vid'],
     'coco': ['coco', 'mscoco', 'ms_coco'],
-    'wider_face': ['WIDERFaceDataset', 'wider_face', 'WDIERFace'],
-    'my_dataset': ['my_dataset']
+    'wider_face': ['WIDERFaceDataset', 'wider_face', 'WDIERFace']
 }
 
 
