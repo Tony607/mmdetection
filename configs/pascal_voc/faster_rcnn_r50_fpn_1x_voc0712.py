@@ -111,10 +111,9 @@ data = dict(
         dataset=dict(
             type=dataset_type,
             ann_file=[
-                data_root + 'VOC2007/ImageSets/Main/trainval.txt',
-                data_root + 'VOC2012/ImageSets/Main/trainval.txt'
+                data_root + 'VOC2007/ImageSets/Main/trainval.txt'
             ],
-            img_prefix=[data_root + 'VOC2007/', data_root + 'VOC2012/'],
+            img_prefix=[data_root + 'VOC2007/'],
             img_scale=(1000, 600),
             img_norm_cfg=img_norm_cfg,
             size_divisor=32,
